@@ -4,6 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+    <list default="true" id="e7f6e0e8-dad3-4678-96c5-63897a3017d2" name="Changes" comment="Login metódus.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MeasureConverter/src/main/java/com/example/measureconverter/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/MeasureConverter/src/main/java/com/example/measureconverter/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MeasureConverter/src/main/java/com/example/measureconverter/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MeasureConverter/src/main/java/com/example/measureconverter/HelloController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,6 +72,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "development__CsSz",
+    "last_opened_file_path": "C:/Users/Szilveszter/IdeaProjects/Csordas_Szilveszter_JavaFX_beadando",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\lszlp\Documents\GitHub\MeasureConverter\MeasureConverter\src\main\resources\com\example\measureconverter" />
@@ -126,7 +143,23 @@
       <option name="project" value="LOCAL" />
       <updated>1703683833456</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ConverterPage metódus.">
+      <option name="closed" value="true" />
+      <created>1703687699369</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1703687699369</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Login metódus.">
+      <option name="closed" value="true" />
+      <created>1703688251169</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1703688251169</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -157,6 +190,8 @@
     <MESSAGE value="Converter.java és Converter.fxml fájlok létrehozása." />
     <MESSAGE value="HelloApplication.java módosítása." />
     <MESSAGE value="Regisztráció grafikus felületének kialakítása" />
-    <option name="LAST_COMMIT_MESSAGE" value="Regisztráció grafikus felületének kialakítása" />
+    <MESSAGE value="ConverterPage metódus." />
+    <MESSAGE value="Login metódus." />
+    <option name="LAST_COMMIT_MESSAGE" value="Login metódus." />
   </component>
 </project>
