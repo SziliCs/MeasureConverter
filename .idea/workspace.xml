@@ -4,15 +4,6 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7f6e0e8-dad3-4678-96c5-63897a3017d2" name="Changes" comment="Regisztráció grafikus felületének kialakítása">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023__12__27__14_19__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023__12__27__14_19__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeasureConverter/src/main/java/com/example/measureconverter/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/MeasureConverter/src/main/java/com/example/measureconverter/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeasureConverter/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/MeasureConverter/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeasureConverter/target/classes/com/example/measureconverter/HelloApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/MeasureConverter/target/classes/com/example/measureconverter/HelloApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeasureConverter/target/classes/com/example/measureconverter/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/MeasureConverter/target/classes/com/example/measureconverter/hello-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeasureConverter/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/MeasureConverter/target/classes/module-info.class" afterDir="false" />
-    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,18 +67,6 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Development__PL&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Szilveszter/IdeaProjects/Csordas_Szilveszter_JavaFX_beadando&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
-  }
-}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\lszlp\Documents\GitHub\MeasureConverter\MeasureConverter\src\main\resources\com\example\measureconverter" />
