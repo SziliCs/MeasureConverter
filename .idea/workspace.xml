@@ -4,13 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7f6e0e8-dad3-4678-96c5-63897a3017d2" name="Changes" comment="Maven függőségek hozzáadása.">
-      <change beforePath="$PROJECT_DIR$/MeasureConverter/src/main/java/com/example/measureconverter/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/MeasureConverter/src/main/java/com/example/measureconverter/Converter.java" afterDir="false" />
+    <list default="true" id="e7f6e0e8-dad3-4678-96c5-63897a3017d2" name="Changes" comment="HelloApplication.java módosítása.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MeasureConverter/src/main/resources/com/example/measureconverter/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/MeasureConverter/src/main/resources/com/example/measureconverter/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="FxmlFile" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <favorite-branches>
@@ -26,13 +35,21 @@
         </map>
       </branch-storage>
     </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="102732dc-d27b-43f1-a8f3-ba65a505a903" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 8
@@ -47,10 +64,12 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "development__CsSz",
+    "last_opened_file_path": "C:/Users/Szilveszter/IdeaProjects/Csordas_Szilveszter_JavaFX_beadando",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
   <component name="RunManager">
@@ -83,7 +102,23 @@
       <option name="project" value="LOCAL" />
       <updated>1703681270930</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Converter.java és Converter.fxml fájlok létrehozása.">
+      <option name="closed" value="true" />
+      <created>1703681718057</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1703681718057</updated>
+    </task>
+    <task id="LOCAL-00003" summary="HelloApplication.java módosítása.">
+      <option name="closed" value="true" />
+      <created>1703682538793</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703682538793</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -99,6 +134,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Maven függőségek hozzáadása." />
-    <option name="LAST_COMMIT_MESSAGE" value="Maven függőségek hozzáadása." />
+    <MESSAGE value="Converter.java és Converter.fxml fájlok létrehozása." />
+    <MESSAGE value="HelloApplication.java módosítása." />
+    <option name="LAST_COMMIT_MESSAGE" value="HelloApplication.java módosítása." />
   </component>
 </project>
