@@ -1,6 +1,5 @@
 package com.example.measureconverter;
 
-import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -11,6 +10,7 @@ import javafx.stage.Modality;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.util.Objects;
 
 public class HelloController {
     @FXML
@@ -21,7 +21,24 @@ public class HelloController {
     private PasswordField password;
 
     @FXML
-    public void Login(ActionEvent actionEvent) {
+    protected void Login() throws IOException {
+        if (Objects.equals(username.getText(), "")
+                || Objects.equals(password.getText(), ""))
+        {
+            message.setText("Adja meg a hiányzó adatokat!");
+        }
+        // Felhasználó keresése adatbázisból
+        else if (Database.QueryUsers(username.getText(), password.getText()))
+        {
+            username.setText("");
+            password.setText("");
+            message.setText("");
+            ConverterPage();
+        }
+        else
+        {
+            message.setText("Hibás bejelentkezési adatok!");
+        }
     }
 
     @FXML
