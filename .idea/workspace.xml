@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e7f6e0e8-dad3-4678-96c5-63897a3017d2" name="Changes" comment="Regisztráció grafikus felületének kialakítása">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023__12__27__14_19__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023__12__27__14_19__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MeasureConverter/src/main/java/com/example/measureconverter/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MeasureConverter/src/main/java/com/example/measureconverter/HelloController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,12 +75,12 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "developement__CsSz",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/Szilveszter/IdeaProjects/Csordas_Szilveszter_JavaFX_beadando",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">

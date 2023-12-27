@@ -39,4 +39,19 @@ public class HelloController {
         registration.showAndWait();
     }
 
+    @FXML
+    protected void ConverterPage() throws IOException {
+        username.setText("");
+        password.setText("");
+        username.requestFocus();
+        FXMLLoader root = new FXMLLoader(HelloApplication.class.getResource("Converter.fxml"));
+        Scene scene = new Scene(root.load());
+        Stage converter = new Stage();
+        converter.setScene(scene);
+        converter.setTitle("MeasureConverter - Mértékegységátváltás");
+        converter.setResizable(false);
+        converter.initModality(Modality.APPLICATION_MODAL);
+        converter.showAndWait();
+    }
+
 }
