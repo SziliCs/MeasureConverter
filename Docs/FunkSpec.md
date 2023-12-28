@@ -29,8 +29,8 @@ Az alkalmazás elkészítésének hátterében a következő igények és szüks
 |   |              | **Mértékegységváltó Fülek**                    |                                                        |   |
 |   | K3           | Kilométer - Mérföld                            | A felhasználó kilométert mérföldre válthat.            |   |
 |   | K4           | Mérföld - Kilométer                            | A felhasználó mérföldből kilométerre válthat.          |   |
-|   | K5           | MérföldPerOra - KilometerPerOra                | A felhasználó mérföld per órából kilométer per órára válthat.                  |   |
-|   | K6           | KilométerPerOra - MérföldPerOra                | A felhasználó kilométer per órából mérföld per órára válthat.                  |   |
+|   | K5           | MérföldPerÓra - KilométerPerÓra                | A felhasználó mérföld per órából kilométer per órára válthat.                  |   |
+|   | K6           | KilométerPerÓra - MérföldPerÓra                | A felhasználó kilométer per órából mérföld per órára válthat.                  |   |
 |   | K7           | Kilogramm - Font                               | A felhasználó kilogrammból fontba válthat.|   |
 |   | K8           | Font - Kilogramm                               | A felhasználó fontból kilogrammra.|   |
 |   | K9           | Celsius - Fahrenheit                           | A felhasználó Celsiusból Fahrenheitbe válthat.         |   |
@@ -41,4 +41,14 @@ Az alkalmazás elkészítésének hátterében a következő igények és szüks
 |   | K12          | Felhasználói Adatok Tárolása                   | A felhasználók regisztrációjakor a rendszer tárolja felhasználónevüket és jelszavukat.|   |
 
 ---
+
+# Jelenlegi üzleti folyamatok modellje
+
+A mai világban az emberek gyakran szükségét érzik a mértékegységek közötti könnyű és gyors átváltásnak. Jelenleg az ilyen típusú igényeket véletlenszerű online keresésekkel különféle weboldalakon próbálják kielégíteni, ami nem mindig kényelmes vagy hatékony. Ezek gyakran nem rendelkeznek egységes és felhasználóbarát felülettel.
+
+---
+
+# Igényelt üzleti folyamatok modellje
+
+Az alkalmazás használatával könnyedén és gyorsan végezhetők el a mértékegységváltások. Az alkalmazás azonnal visszajelzést Az időmegtakarítás is jelentős, mivel nincs szükség hosszú kalkulációkra vagy keresgélésre a megfelelő mértékegység megtalálásához. Az alkalmazás rugalmasan használható bárhonnan és bármikor, így a használatával a felhasználóknak egyszerűbb és könnyebb lesz a mértékegységváltásokkal kapcsolatos mindennapi tevékenységeik elvégzése.
 
