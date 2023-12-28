@@ -104,10 +104,28 @@ Jogi követelmények:/
 
 ---
 
-# Rendszerhasználati esetek és lefutásaik:
+# Rendszerhasználati esetek és lefutásaik
 
 Egyszerű felhasználóval rendelkezik csak az alkalmazás, nincsenek különböző jogkörök ezzel is egyszerűsítve a működést./
 ### Példa használat:
 ![Megnevezetlen diagram drawio](https://github.com/SziliCs/MeasureConverter/assets/43788835/70034409-429b-4f67-9f3b-4eb3ceb7bd54)
+
+---
+
+# Fizikai környezet
+
+- Nincsenek megvásárolt komponenseinek
+- Az alkalmazás Windows platformra készült
+- Adatbázisszerverhez kapcsolódik közvetlenül az alkalmazás
+
+Fejlesztő eszközök:/
+- MySQL Workbench
+- IntelliJ IDEA
+
+---
+
+# Architekturális terv
+
+Az Apache http szerveren futó adatbázis szolgálja ki a rendszer felhasználóit, itt kerülnek tárolásra a felhasználók bejelentkezési adatai. A szervert kizárólag az alkalmazáson keresztül lehet elérni. Az alkalmazás egy futtatható .exe állomány segítségével indítható el. A szoftver használatához semmilyen külső szoftver és telepítendő állomány nem szükséges.
 
 
