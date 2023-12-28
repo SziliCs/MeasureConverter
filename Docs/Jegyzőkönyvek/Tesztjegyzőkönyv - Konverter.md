@@ -41,5 +41,14 @@ A MeasureConverter alkalmazás használata nagyon egyszerű. A felhasználónak 
 
 ![image](https://github.com/SziliCs/MeasureConverter/assets/150517090/0395fff5-5405-4c6e-b3d8-37646bc13be6)
 
-- 
+- Megnyomom az oldalon található Törlés gombot.  
+*Elvárt eredmény:* a beviteli mezők értékei törlődnek.  
 
+![image](https://github.com/SziliCs/MeasureConverter/assets/150517090/86a2ace2-b974-46e8-9736-c9972a4073fe)
+
+## A Kijelentkezés gomb működése
+A konvertáló felület Kijelentkezés fülén található még egy gomb, amely a kijelentkezteti, és a konvertáló oldalról a bejelentkező oldalra viszi vissza a felhasználót. A konvertáló felület bezáródik, és ismét látható a bejelentkező felület.  
+- Rákattintok a Kijelentkezés fülön található Kijelentkezés gombra, amely a bejelentkező oldalra visz. A grafikus felület helyesen jelenik meg, minden felirat jól olvasható.  
+*Elvárt eredmény:* a felület az ábrán látható módon jelenik meg, egy új ablakban. Az ablak átméretezése nem engedélyezett.  
+
+![image](https://github.com/SziliCs/MeasureConverter/assets/150517090/18fe953a-8146-4629-8347-9cb71f1cd767)
