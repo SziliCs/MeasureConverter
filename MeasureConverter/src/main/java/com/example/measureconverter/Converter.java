@@ -10,7 +10,7 @@ import java.net.URL;
 import java.util.Objects;
 import java.util.ResourceBundle;
 
-public class Converter  {
+public class Converter implements Initializable {
 
     @FXML
     private TextField Kilometer;
@@ -39,6 +39,20 @@ public class Converter  {
     @FXML
     private Button logoutbutton;
 
+    @Override
+    public void initialize(URL url, ResourceBundle rb) {
+        Kilometer.textProperty().addListener((property, oldText, newText) -> InputChange());
+        Merfold.textProperty().addListener((property, oldText, newText) -> InputChange());
+
+        KilometerPerOra.textProperty().addListener((property, oldText, newText) -> InputChange());
+        MerfoldPerOra.textProperty().addListener((property, oldText, newText) -> InputChange());
+
+        Kilogramm.textProperty().addListener((property, oldText, newText) -> InputChange());
+        Font.textProperty().addListener((property, oldText, newText) -> InputChange());
+
+        Celsius.textProperty().addListener((property, oldText, newText) -> InputChange());
+        Fahrenheit.textProperty().addListener((property, oldText, newText) -> InputChange());
+    }
 
     protected void InputChange() {
         Scene scene = Kilometer.getScene();
