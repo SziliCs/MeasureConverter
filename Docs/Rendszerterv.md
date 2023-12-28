@@ -22,3 +22,27 @@ Póta László
 
 **Tesztelés:**\
 Csordás Szilveszter
+
+### Ütemterv
+
+|   |      Funkció / Story      |            Feladat / Task           | Prioritás | Becslés | Aktuális Becslés | Eltelt idő | Hátralévő idő |   |
+|---|:-------------------------:|:-----------------------------------:|:---------:|:-------:|:----------------:|:----------:|:-------------:|---|
+|   | Követelmény specifikáció  |                                     | 0         | 5       | 5                | 5          | 0             |   |
+|   | Funkcionális specifikáció |                                     | 0         | 5       | 5                | 5          | 0             |   |
+|   | Rendszerterv              |                                     | 0         | 5       | 2.5              | 5          | 0             |   |
+|   | Adattárolás               | Adatbázis megvalósítása a szerveren | 1         | 1       | 1                | 5          | 0             |   |
+|   | Alkalmazás                | Képernyőtervek elkészítése          | 2         | 1       | 1                | 5          | 0             |   |
+|   | Alkalmazás                | Prototípus elkészítése              | 2         | 3       | 3                | 5          | 0             |   |
+|   | Alkalmazás                | Adatbázis létrehozása               | 2         | 1       | 1                | 5          | 0             |   |
+|   | Alkalmazás                | Menüstruktúra elkészítése           | 2         | 5       | 5                | 5          | 0             |   |
+|   | Alkalmazás                | Kezdőlap funkciók elkészítése       | 2         | 5       | 5                | 5          | 0             |   |
+|   | Alkalmazás                | Login funkció megvalósítás          | 2         | 5       | 5                | 5          | 0             |   |
+|   | Alkalmazás                | Tesztelés                           | 2         | 5       | 5                | 5          | 0             |   |
+
+### Mérföldkövek
+- Adatbázis létrehozása
+- Prototípus bemutatása
+- Szoftver tesztelése
+- Átadás a megrendelő részére
+
+---
