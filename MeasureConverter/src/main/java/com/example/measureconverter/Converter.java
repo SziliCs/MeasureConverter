@@ -134,5 +134,26 @@ public class Converter {
             }
         }
     }
+    protected void KilogrammToFont()
+    {
+        if (Objects.equals(Kilogramm.getText(), ""))
+        {
+            Font.setText("");
+        }
+        else
+        {
+            try
+            {
+                double kilogramm = Double.parseDouble(Kilogramm.getText());
+                double font = kilogramm / 0.45359237;
+                font = Math.round(font * 100.0) / 100.0;
+                Font.setText(String.valueOf(font));
+            }
+            catch (NumberFormatException ex)
+            {
+                Kilogramm.requestFocus();
+            }
+        }
+    }
 
 }
