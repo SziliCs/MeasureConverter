@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7f6e0e8-dad3-4678-96c5-63897a3017d2" name="Changes" comment="Kilométer-mérföld átváltás hozzáadása.">
-      <change beforePath="$PROJECT_DIR$/MeasureConverter/src/main/java/com/example/measureconverter/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/MeasureConverter/src/main/java/com/example/measureconverter/Converter.java" afterDir="false" />
+    <list default="true" id="e7f6e0e8-dad3-4678-96c5-63897a3017d2" name="Changes" comment="Kijelentkezés metódusa">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MeasureConverter/src/main/java/com/example/measureconverter/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/MeasureConverter/src/main/java/com/example/measureconverter/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MeasureConverter/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/MeasureConverter/target/classes/module-info.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +38,7 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="Development_PL" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -70,18 +72,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;developement__CsSz&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Szilveszter/IdeaProjects/Csordas_Szilveszter_JavaFX_beadando&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Szilveszter/IdeaProjects/Csordas_Szilveszter_JavaFX_beadando",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\lszlp\Documents\GitHub\MeasureConverter\MeasureConverter\src\main\resources\com\example\measureconverter" />
@@ -197,7 +199,31 @@
       <option name="project" value="LOCAL" />
       <updated>1703756776643</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Inputok váltásának megfelelő kezelése">
+      <option name="closed" value="true" />
+      <created>1703767262833</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1703767262833</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Osztály inicializálás">
+      <option name="closed" value="true" />
+      <created>1703767505706</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1703767505706</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Kijelentkezés metódusa">
+      <option name="closed" value="true" />
+      <created>1703767661736</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1703767661736</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -235,6 +261,10 @@
     <MESSAGE value="Konverter felület harmadik fül." />
     <MESSAGE value="Delete metódus hozzáadása." />
     <MESSAGE value="Kilométer-mérföld átváltás hozzáadása." />
-    <option name="LAST_COMMIT_MESSAGE" value="Kilométer-mérföld átváltás hozzáadása." />
+    <MESSAGE value="Celsius - Fahrenheit váltás" />
+    <MESSAGE value="Inputok váltásának megfelelő kezelése" />
+    <MESSAGE value="Osztály inicializálás" />
+    <MESSAGE value="Kijelentkezés metódusa" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kijelentkezés metódusa" />
   </component>
 </project>

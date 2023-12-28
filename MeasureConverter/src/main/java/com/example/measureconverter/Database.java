@@ -6,17 +6,18 @@ public class Database {
 
     // Az adatbáziskapcsolathoz szükséges változók, attól függően ki tesztel, kommentezze ki a saját localhost elérhetőségét!
     // Szilveszter:
+    /*
     private static final String DATABASE_URL = "jdbc:mysql://localhost:3306/progkorny_java?useUnicode=true&characterEncoding=UTF-8";
     private static final String DATABASE_USERNAME = "progkorny_java";
     private static final String DATABASE_PASSWORD = "NNAY3-cBd!SAnDwN";
-
+    */
 
     // Laci:
-    /*
+
     private static final String DATABASE_URL = "jdbc:mysql://localhost:3306/rft?useUnicode=true&characterEncoding=UTF-8";
     private static final String DATABASE_USERNAME = "root";
     private static final String DATABASE_PASSWORD = "";
-    */
+
 
     public static void AddNewUser(String username, String password) {
         String query = "INSERT INTO users (user_name, password) VALUES (?, ?)";
