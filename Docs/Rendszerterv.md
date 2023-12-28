@@ -114,13 +114,13 @@ Egyszerű felhasználóval rendelkezik csak az alkalmazás, nincsenek különbö
 
 # Fizikai környezet
 
-- Nincsenek megvásárolt komponenseinek
-- Az alkalmazás Windows platformra készült
-- Adatbázisszerverhez kapcsolódik közvetlenül az alkalmazás
+- Nincsenek megvásárolt komponenseinek.
+- Az alkalmazás Windows platformra készült.
+- Adatbázisszerverhez kapcsolódik közvetlenül az alkalmazás.
 
 Fejlesztő eszközök:/
-- MySQL Workbench
-- IntelliJ IDEA
+- MySQL Workbench.
+- IntelliJ IDEA.
 
 ---
 
@@ -128,4 +128,22 @@ Fejlesztő eszközök:/
 
 Az Apache http szerveren futó adatbázis szolgálja ki a rendszer felhasználóit, itt kerülnek tárolásra a felhasználók bejelentkezési adatai. A szervert kizárólag az alkalmazáson keresztül lehet elérni. Az alkalmazás egy futtatható .exe állomány segítségével indítható el. A szoftver használatához semmilyen külső szoftver és telepítendő állomány nem szükséges.
 
+---
 
+# Implementációs terv
+
+Az alkalmazás létrehozása kizárólag Java nyelven történik. Amennyire lehetséges az osztályokat külön fájlokba szervezzük. Az alkalmazás képes lesz kommunikálni a hozzákapcsolt adatbázis szerverrel, oda adatot küldeni és onnan adatot olvasni.
+
+---
+
+# Tesztterv
+
+A tesztelések célja a rendszer és a komponensei funkcionalitásának teljes vizsgálata, ellenőrzése, a rendszer által megvalósított üzleti szolgáltatások verifikálása. A tesztelés igény szerint elvégezhető különböző hardveres környezetben. A tesztelés során használt hardverek a napjainkban általánosan elterjedt hardverkonfigurációjú PC-k, laptopok. A tesztelés során a folyamatokhoz tartozó különböző forgatókönyvek eredményét vizsgáljuk. Amennyiben az elvártnak megfelelő eredményt kapjuk a teszteset sikeresnek tekinthető, ellenkező esetben a hibát rögzítjük a jegyzőkönyvben. A teszt során elkészült jegyzőkönyveket mellékeljük a megrendelő részére. Hibatalálat esetén a szoftver kódja javításra kerül, majd ezután újból teljeskörűen teszteljük a szoftvert.
+
+---
+
+# Telepítési terv
+
+- Szükség van egy adatbázis szerverre amelynek az elérése közvetlenül történik az alkalmazásból.
+- Elvárás a Windows környezet az alkalmazás futtatásához.
+- Külön telepítést nem igényel az alkalmazás.
