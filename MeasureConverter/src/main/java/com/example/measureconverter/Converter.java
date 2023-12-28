@@ -196,6 +196,27 @@ public class Converter {
             }
         }
     }
+    protected void FahrenheitToCelsius() {
+        if (Objects.equals(Fahrenheit.getText(), ""))
+        {
+            Celsius.setText("");
+        }
+        else
+        {
+            try
+            {
+                double fahrenheit = Double.parseDouble(Fahrenheit.getText());
+                double celsius = (fahrenheit-32) * 5 / 9;
+                celsius = Math.round(celsius * 100.0) / 100.0;
+                Celsius.setText(String.valueOf(celsius));
+            }
+            catch (NumberFormatException ex)
+            {
+                Fahrenheit.requestFocus();
+            }
+        }
+    }
+
 
 
 
