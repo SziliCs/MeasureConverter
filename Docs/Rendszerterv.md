@@ -46,3 +46,13 @@ Csordás Szilveszter
 - Átadás a megrendelő részére
 
 ---
+
+# Üzleti folyamatok modellje
+Bejelentkezés mindenki számára ugyanolyan lefutású, az alkalmazás indításakor megjelenik ’Felhasználó név’ és ’Jelszó’ beviteli mező. A mezők kitöltése után a ’Belépés’ gombra kattint a felhasználó. Ha az azonosítás sikeres, akkor a felhasználó bejelentkezett és megjelenik minden menüsor. Ha nem sikerül az azonosítás, hibaüzenet jelenik meg.
+
+---
+
+# Követelmények
+### Funkcionális követelmények
+A felhasználóknak lehetőségük van egyedi felhasználónévvel és jelszóval regisztrálni az alkalmazás használatához. Bejelentkezés után pedig automatikusan hozzáférnek a szoftver teljes funkcionalitásához megkötés nélkül. Az intuitív és felhasználóbarát felületen elérhető minden konverzió tömeg, távolság, és sebesség tekintetében egyaránt.
+
