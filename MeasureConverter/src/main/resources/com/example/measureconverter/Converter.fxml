@@ -190,5 +190,96 @@
                 </FlowPane>
             </content>
         </Tab>
+        <Tab text="Hőmérséklet">
+            <content>
+                <FlowPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                    <children>
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="45.0" prefWidth="180.0" text="Hőmérséklet" textAlignment="CENTER" textFill="LIME">
+                            <FlowPane.margin>
+                                <Insets bottom="50.0" left="200.0" right="200.0" top="30.0" />
+                            </FlowPane.margin>
+                            <font>
+                                <Font size="30.0" />
+                            </font>
+                        </Label>
+                        <TextField fx:id="Celsius">
+                            <FlowPane.margin>
+                                <Insets left="60.0" right="40.0" />
+                            </FlowPane.margin>
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </TextField>
+                        <Label text="=">
+                            <font>
+                                <Font size="35.0" />
+                            </font>
+                        </Label>
+                        <TextField fx:id="Fahrenheit">
+                            <FlowPane.margin>
+                                <Insets left="40.0" right="60.0" />
+                            </FlowPane.margin>
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </TextField>
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="35.0" prefWidth="90.0" text="Celsius" textAlignment="CENTER">
+                            <font>
+                                <Font size="20.0" />
+                            </font>
+                            <FlowPane.margin>
+                                <Insets left="100.0" right="100.0" />
+                            </FlowPane.margin>
+                        </Label>
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="35.0" prefWidth="100.0" text="Fahrenheit" textAlignment="CENTER">
+                            <font>
+                                <Font size="20.0" />
+                            </font>
+                            <FlowPane.margin>
+                                <Insets left="100.0" right="100.0" />
+                            </FlowPane.margin>
+                        </Label>
+                        <Button mnemonicParsing="false" onAction="#Delete" text="Törlés" textFill="RED">
+                            <font>
+                                <Font size="25.0" />
+                            </font>
+                            <FlowPane.margin>
+                                <Insets left="250.0" top="50.0" />
+                            </FlowPane.margin>
+                        </Button>
+                    </children>
+                </FlowPane>
+            </content>
+        </Tab>
+        <Tab text="Kijelentkezés">
+            <content>
+                <FlowPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                    <Label alignment="CENTER" prefHeight="55.0" prefWidth="540.0" text="Köszönjük, hogy használja a MeasureConverter alkalmazást!">
+                        <FlowPane.margin>
+                            <Insets left="25.0" right="25.0" top="40.0" />
+                        </FlowPane.margin>
+                        <font>
+                            <Font size="20.0" />
+                        </font>
+                    </Label>
+                    <Label alignment="CENTER" prefHeight="55.0" prefWidth="280.0" text="További szép napot kívánunk!">
+                        <font>
+                            <Font size="20.0" />
+                        </font>
+                        <FlowPane.margin>
+                            <Insets left="135.0" top="30.0" />
+                        </FlowPane.margin>
+                    </Label>
+                    <Button fx:id="logoutbutton" mnemonicParsing="false" onAction="#Logout" prefHeight="60.0" prefWidth="250.0" style="-fx-background-color: skyblue;" text="Kijelentkezés" textAlignment="CENTER" textFill="#00ff3a" underline="true">
+                        <font>
+                            <Font size="28.0" />
+                        </font>
+                        <FlowPane.margin>
+                            <Insets left="150.0" top="30.0" />
+                        </FlowPane.margin>
+                    </Button>
+                </FlowPane>
+            </content>
+        </Tab>
     </tabs>
 </TabPane>
