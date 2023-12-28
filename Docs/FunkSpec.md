@@ -1,9 +1,7 @@
-# Funckionális specifikáció MeasureConverter Alkalmazás - Áttekintés
-
+# Funckionális specifikáció MeasureConverter Alkalmazás
 ## Célkitűzés
 
 Az alkalmazás célja a felhasználók számára egyszerű és hatékony eszköz nyújtása mértékegységek közötti könnyű váltásra. A felhasználóknak lehetőségük van kényelmesen átváltani különböző mértékegységeket, például kilométert mérföldre, fontot kilogrammára, vagy éppen Celsiusból Fahrenheitbe.
-
 
 Az alkalmazás modern és felhasználóbarát felülettel rendelkezik, hogy a felhasználók könnyen eligazodjanak és gyorsan elvégezhessék a kívánt mértékegységváltásokat. Az egyszerűség és funkcionalitás kombinációjával a MeasureConverter alkalmazás egy hasznos eszköz lehet mindennapi életünkben.
 
@@ -51,4 +49,26 @@ A mai világban az emberek gyakran szükségét érzik a mértékegységek köz�
 # Igényelt üzleti folyamatok modellje
 
 Az alkalmazás használatával könnyedén és gyorsan végezhetők el a mértékegységváltások. Az alkalmazás azonnal visszajelzést Az időmegtakarítás is jelentős, mivel nincs szükség hosszú kalkulációkra vagy keresgélésre a megfelelő mértékegység megtalálásához. Az alkalmazás rugalmasan használható bárhonnan és bármikor, így a használatával a felhasználóknak egyszerűbb és könnyebb lesz a mértékegységváltásokkal kapcsolatos mindennapi tevékenységeik elvégzése.
+
+--- 
+
+# Használati Esetek és Forgatókönyv
+
+A felhasználók első lépésként regisztrálnak az alkalmazásba, megadva egyedi felhasználónevet és jelszót. Ezután bejelentkeznek, és ezzel elérhetővé válnak számukra a mértékegységváltó fülek. A felhasználók egyszerűen kiválaszthatják a kívánt mértékegységváltást, és az alkalmazás azonnal visszajelzést ad a helyes átváltásról. Amikor a felhasználó befejezte a mértékegységváltást, bármikor kijelentkezhet, lezárva ezzel az aktuális munkamenetet.
+
+---
+
+# Képernyőtervek
+
+## Regisztráció:
+![image](https://github.com/SziliCs/MeasureConverter/assets/43788835/8b621e65-82e6-43ed-bd1b-c1473fb3b13e)
+
+## Bejelentkezés:
+![image](https://github.com/SziliCs/MeasureConverter/assets/43788835/e9e007e6-a83f-4255-97f1-dd1b43121b1a)
+
+## Főoldal és fülek:
+![image](https://github.com/SziliCs/MeasureConverter/assets/43788835/2652e621-bd3c-45cb-a7f5-faf6f8c9e2c0)
+
+---
+
 
