@@ -37,7 +37,7 @@ Megadok egy felhasználónevet, és egy jelszót is, de ilyen adatokkal nincs re
 ![image](https://github.com/SziliCs/MeasureConverter/assets/150517090/f4f8cd45-a62c-4510-8505-3628c065f041)
 
 - Ha a felhasználó helyesen adja meg mindkét adatot, akkor a rendszer bejelentkezteti, és megjelenik a konvertáló ablak.  
-Megadok egy felhasználónevet, és egy jelszót is, de ilyen adatokkal nincs regisztrált felhasználó az adatbázisban. Rákattintok a Bejelentkezés gombra.  
+Megadok egy felhasználónevet, és egy jelszót is, ilyen adatokkal van regisztrált felhasználó az adatbázisban. Rákattintok a Bejelentkezés gombra.  
 *Elvárt eredmény:* Sikeres bejelentkezés, megnyílik az alkalmazás konvertáló ablaka.
 
 ![image](https://github.com/SziliCs/MeasureConverter/assets/150517090/27d5a0bc-e791-4d9d-9d73-d5f246963e7f)
