@@ -1,5 +1,5 @@
 # Funckionális specifikáció MeasureConverter Alkalmazás
-## Célkitűzés
+# Célkitűzés
 
 Az alkalmazás célja a felhasználók számára egyszerű és hatékony eszköz nyújtása mértékegységek közötti könnyű váltásra. A felhasználóknak lehetőségük van kényelmesen átváltani különböző mértékegységeket, például kilométert mérföldre, fontot kilogrammára, vagy éppen Celsiusból Fahrenheitbe.
 
