@@ -92,4 +92,47 @@ public class Converter {
         }
     }
 
+    protected void KilometerPOraToMerfoldPOra()
+    {
+        if (Objects.equals(KilometerPerOra.getText(), ""))
+        {
+            MerfoldPerOra.setText("");
+        }
+        else
+        {
+            try
+            {
+                double kmph = Double.parseDouble(KilometerPerOra.getText());
+                double mph = kmph / 1.609344;
+                mph = Math.round(mph * 100.0) / 100.0;
+                MerfoldPerOra.setText(String.valueOf(mph));
+            }
+            catch (NumberFormatException ex)
+            {
+                KilometerPerOra.requestFocus();
+            }
+        }
+    }
+
+    protected void MerfoldPOraToKilometerPOra() {
+        if (Objects.equals(MerfoldPerOra.getText(), ""))
+        {
+            KilometerPerOra.setText("");
+        }
+        else
+        {
+            try
+            {
+                double mph = Double.parseDouble(MerfoldPerOra.getText());
+                double kmph = mph * 1.609344;
+                kmph = Math.round(kmph * 100.0) / 100.0;
+                KilometerPerOra.setText(String.valueOf(kmph));
+            }
+            catch (NumberFormatException ex)
+            {
+                MerfoldPerOra.requestFocus();
+            }
+        }
+    }
+
 }
