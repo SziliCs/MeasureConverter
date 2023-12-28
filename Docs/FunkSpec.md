@@ -60,13 +60,13 @@ A felhasználók első lépésként regisztrálnak az alkalmazásba, megadva egy
 
 # Képernyőtervek
 
-## Regisztráció:
+### Regisztráció:
 ![image](https://github.com/SziliCs/MeasureConverter/assets/43788835/8b621e65-82e6-43ed-bd1b-c1473fb3b13e)
 
-## Bejelentkezés:
+### Bejelentkezés:
 ![image](https://github.com/SziliCs/MeasureConverter/assets/43788835/e9e007e6-a83f-4255-97f1-dd1b43121b1a)
 
-## Főoldal és fülek:
+### Főoldal és fülek:
 ![image](https://github.com/SziliCs/MeasureConverter/assets/43788835/2652e621-bd3c-45cb-a7f5-faf6f8c9e2c0)
 
 ---
