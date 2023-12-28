@@ -27,25 +27,25 @@ Először nem adok meg semmilyen adatot, csak rákattintok a Regisztráció gomb
 - Megadok egy jelszót, de felhasználónevet nem. Rákattintok a Regisztráció gombra.  
 *Elvárt eredmény:* Hibaüzenet: Adja meg a hiányzó adatokat!
 
-![image](https://github.com/SziliCs/MeasureConverter/assets/150517090/dd313eaf-e869-4828-8aab-0662ff400dd7)
+![image](https://github.com/SziliCs/MeasureConverter/assets/150517090/222160d9-2e38-44b0-bfdf-694c661aae68)
 
 - Megadok egy felhasználónevet és egy jelszót, de a jelszót csak egyszer adom meg. Rákattintok a Regisztráció gombra.  
 *Elvárt eredmény:* Hibaüzenet: Adja meg a hiányzó adatokat!
 
-![image](https://github.com/SziliCs/MeasureConverter/assets/150517090/6235e6d9-c997-4e9b-8411-5f2e1b998306)
+![image](https://github.com/SziliCs/MeasureConverter/assets/150517090/1e67245a-b301-4c4a-a0a0-67209113d83c)
 
 - Egy másik lehetséges hiba, ha a felhasználó nem ugyanazt a jelszót adja meg a két jelszómező valamelyikében. Ekkor a program figyelmezteti a felhasználót, hogy a két jelszó nem egyezik.
 A hibaüzenet: **A két jelszó nem egyezik!**  
 Megadok minden adatot, de a két jelszómezőbe eltérő jelszót írok. Rákattintok a Regisztráció gombra.  
 *Elvárt eredmény:* Hibaüzenet: A két jelszó nem egyezik!
 
-![image](https://github.com/SziliCs/MeasureConverter/assets/150517090/2279633c-95c8-40cc-8f04-8110c2bf3b91)
+![image](https://github.com/SziliCs/MeasureConverter/assets/150517090/48021b6d-a268-4eda-984c-76c9bf061764)
 
 - Ha a felhasználó helyesen adja meg mindhárom adatot, akkor a rendszer leregisztrálja.  
 Megadok egy felhasználónevet, és egy jelszót kétszer, a két jelszómezőbe azonos jelszót írok. Rákattintok a Regisztráció gombra.  
-*Elvárt eredmény:* Üzenet: Sikeres regisztráció!
+*Elvárt eredmény:* Üzenet: Sikeres regisztráció! A beviteli mezők értékei törlődnek.
 
-![image](https://github.com/SziliCs/MeasureConverter/assets/150517090/27d5a0bc-e791-4d9d-9d73-d5f246963e7f)
+![image](https://github.com/SziliCs/MeasureConverter/assets/150517090/5a97ed6b-8ed6-4789-9b18-125d559ad0d8)
 
 ## A Vissza gomb működése
 A regisztrációs felület bal alsó részén található még egy gomb, amely a regisztrációs oldalról a bejelentkező oldalra viszi vissza a felhasználót. A regisztrációs felület bezáródik, és ismét látható a bejelentkező felület.  
