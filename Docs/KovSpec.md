@@ -1,4 +1,4 @@
-# Követelmény specifikáció
+# Követelmény specifikáció MeasureConverter Alkalmazás - Áttekintés
 ## 1. Vezetői összefoglaló
 Egy szállítmányozási cég nemrégiben nemzetközi piacra lépett, és már külföldi országokba is vállalnak szállítást. Azonban nehézségeik adódtak a Magyarországon használatos mértékegységek (kilométer, kilométer/óra, kilogramm, Celsius-fok) és a külföldi országokban használatos mértékegységek (mérföld, mérföld/óra, font, Fahrenheit-fok) közötti átváltásokkal kapcsolatban. Mivel a képletek törtszámokat tartalmaznak, így nehezen megjegyezhetőek az alkalmazottak számára.  
 Cégünket azzal a megbízással keresték meg, hogy készítsünk egy könnyen kezelhető, egyszerűen használható alkalmazást, amellyel az alkalmazottak a képletek megtanulása nélkül is gond nélkül átválthatják az értékeket.
@@ -27,15 +27,18 @@ Azonban a cég nem szeretné, hogy az engedélyük nélkül bárki használhassa
 
 ## 5. Jelenlegi üzleti folyamatok modellje
 **Üzleti szereplők:**  
-- megrendelő (vevő)  
+- megrendelő (vevő)
+  
 **Üzleti munkatárs:**  
-- szállító  
+- szállító
+  
 **Üzleti entitások:**  
 - szállítmány (megrendelt termékek)  
 - csomagolás  
 - teherszállító gépjármű  
 - szállítási jegyzőkönyv  
-- kiadási jegyzőköny  
+- kiadási jegyzőköny
+  
 **Üzleti folyamatok:**
 - Szállítási jegyzőkönyv vezetése: a megrendelés alapján a jegyzőkönyvbe kerülnek a szállítmánnyal kapcsolatos információk (megnevezés, ár, szükség esetén egyéb tulajdonságok); a szállítás igényelt ideje (a megrendelő igénye); az indulási pont és a szállítási cél, valamint a kettő közti távolság => a szállítás során a szállító felvezeti a jegyzőkönyvbe a szállítással kapcsolatos információkat (például: késedelem, szállítmányban esett kár), szükség esetén feljegyzi az új várható szállítási időtartamot => a szállítmány kézbesítése után feljegyzi a tényleges szállítási időtartamot.
 - Kiadási jegyzőkönyv vezetése: a jegyzőkönyvbe kerül a szállított termékek ára, szállítás alapdíja (ami a szállító munkadíja), a szállított termékek után fizetendő ÁFA,  valamint a szállítmány tömege után fizetendő adó => a szállítás során a szállító felvezeti a jegyzőkönyvbe a szállítással kapcsolatos egyéb költségeket, például a tankolt üzemanyag árát és a szállítás során keletkezett esetleges károk árát => a szállítmány kézbesítése után feljegyzi a megrendelő által fizetett összeget.
