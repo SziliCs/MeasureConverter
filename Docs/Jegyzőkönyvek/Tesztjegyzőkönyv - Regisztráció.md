@@ -34,5 +34,23 @@ Először nem adok meg semmilyen adatot, csak rákattintok a Regisztráció gomb
 
 ![image](https://github.com/SziliCs/MeasureConverter/assets/150517090/6235e6d9-c997-4e9b-8411-5f2e1b998306)
 
+- Egy másik lehetséges hiba, ha a felhasználó nem ugyanazt a jelszót adja meg a két jelszómező valamelyikében. Ekkor a program figyelmezteti a felhasználót, hogy a két jelszó nem egyezik.
+A hibaüzenet: **A két jelszó nem egyezik!**  
+Megadok minden adatot, de a két jelszómezőbe eltérő jelszót írok. Rákattintok a Regisztráció gombra.  
+*Elvárt eredmény:* Hibaüzenet: A két jelszó nem egyezik!
 
+![image](https://github.com/SziliCs/MeasureConverter/assets/150517090/2279633c-95c8-40cc-8f04-8110c2bf3b91)
+
+- Ha a felhasználó helyesen adja meg mindhárom adatot, akkor a rendszer leregisztrálja.  
+Megadok egy felhasználónevet, és egy jelszót kétszer, a két jelszómezőbe azonos jelszót írok. Rákattintok a Regisztráció gombra.  
+*Elvárt eredmény:* Üzenet: Sikeres regisztráció!
+
+![image](https://github.com/SziliCs/MeasureConverter/assets/150517090/27d5a0bc-e791-4d9d-9d73-d5f246963e7f)
+
+## A Vissza gomb működése
+A regisztrációs felület bal alsó részén található még egy gomb, amely a regisztrációs oldalról a bejelentkező oldalra viszi vissza a felhasználót. A regisztrációs felület bezáródik, és ismét látható a bejelentkező felület.  
+- Rákattintok a Vissza gombra, amely a bejelentkező oldalra visz. A grafikus felület helyesen jelenik meg, minden felirat jól olvasható.  
+*Elvárt eredmény:* a felület az ábrán látható módon jelenik meg, egy új ablakban. Az ablak átméretezése nem engedélyezett.  
+
+![image](https://github.com/SziliCs/MeasureConverter/assets/150517090/18fe953a-8146-4629-8347-9cb71f1cd767)
 
