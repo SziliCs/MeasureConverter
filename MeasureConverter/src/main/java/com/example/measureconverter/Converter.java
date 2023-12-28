@@ -5,6 +5,7 @@ import javafx.fxml.Initializable;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
+import javafx.stage.Window;
 
 import java.net.URL;
 import java.util.Objects;
@@ -94,6 +95,11 @@ public class Converter implements Initializable {
         Font.setText("");
         Celsius.setText("");
         Fahrenheit.setText("");
+    }
+    @FXML
+    protected void Logout() {
+        Window window = logoutbutton.getScene().getWindow();
+        window.hide();
     }
 
     protected void KilometerToMerfold()
