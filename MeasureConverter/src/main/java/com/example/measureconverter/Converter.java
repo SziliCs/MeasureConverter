@@ -175,6 +175,28 @@ public class Converter {
             }
         }
     }
+    protected void CelsiusToFahrenheit()
+    {
+        if (Objects.equals(Celsius.getText(), ""))
+        {
+            Fahrenheit.setText("");
+        }
+        else
+        {
+            try
+            {
+                double celsius = Double.parseDouble(Celsius.getText());
+                double fahrenheit = celsius * 9/5 + 32;
+                fahrenheit = Math.round(fahrenheit * 100.0) / 100.0;
+                Fahrenheit.setText(String.valueOf(fahrenheit));
+            }
+            catch (NumberFormatException ex)
+            {
+                Celsius.requestFocus();
+            }
+        }
+    }
+
 
 
 }
