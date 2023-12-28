@@ -1,12 +1,16 @@
 package com.example.measureconverter;
 
 import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 
+import java.net.URL;
 import java.util.Objects;
+import java.util.ResourceBundle;
 
-public class Converter {
+public class Converter  {
 
     @FXML
     private TextField Kilometer;
@@ -32,11 +36,40 @@ public class Converter {
     @FXML
     private TextField Fahrenheit;
 
-
     @FXML
     private Button logoutbutton;
 
 
+    protected void InputChange() {
+        Scene scene = Kilometer.getScene();
+        if (scene.focusOwnerProperty().get() == Kilometer) {
+            KilometerToMerfold();
+        }
+        if (scene.focusOwnerProperty().get() == Merfold) {
+            MerfoldToKilometer();
+        }
+
+        if (scene.focusOwnerProperty().get() == KilometerPerOra) {
+            KilometerPOraToMerfoldPOra();
+        }
+        if (scene.focusOwnerProperty().get() == MerfoldPerOra) {
+            MerfoldPOraToKilometerPOra();
+        }
+
+        if (scene.focusOwnerProperty().get() == Kilogramm) {
+            KilogrammToFont();
+        }
+        if (scene.focusOwnerProperty().get() == Font) {
+            FontToKilogramm();
+        }
+
+        if (scene.focusOwnerProperty().get() == Celsius) {
+            CelsiusToFahrenheit();
+        }
+        if (scene.focusOwnerProperty().get() == Fahrenheit) {
+            FahrenheitToCelsius();
+        }
+    }
     @FXML
     protected void Delete() {
         Kilometer.setText("");
@@ -216,6 +249,8 @@ public class Converter {
             }
         }
     }
+
+
 
 
 
