@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7f6e0e8-dad3-4678-96c5-63897a3017d2" name="Changes" comment="Login metódus.">
+    <list default="true" id="e7f6e0e8-dad3-4678-96c5-63897a3017d2" name="Changes" comment="Konverter felület harmadik fül.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeasureConverter/src/main/java/com/example/measureconverter/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/MeasureConverter/src/main/java/com/example/measureconverter/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeasureConverter/src/main/java/com/example/measureconverter/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MeasureConverter/src/main/java/com/example/measureconverter/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MeasureConverter/src/main/resources/com/example/measureconverter/Converter.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/MeasureConverter/src/main/resources/com/example/measureconverter/Converter.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +75,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "development__CsSz",
+    "git-widget-placeholder": "developement__CsSz",
     "last_opened_file_path": "C:/Users/Szilveszter/IdeaProjects/Csordas_Szilveszter_JavaFX_beadando",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
@@ -159,7 +158,31 @@
       <option name="project" value="LOCAL" />
       <updated>1703688251169</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Konverter felület első ablak.">
+      <option name="closed" value="true" />
+      <created>1703752879519</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1703752879519</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Konverter felület második fül.">
+      <option name="closed" value="true" />
+      <created>1703753509253</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1703753509253</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Konverter felület harmadik fül.">
+      <option name="closed" value="true" />
+      <created>1703753908185</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1703753908185</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -173,7 +196,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="Development_PL" />
+                        <option value="origin/main" />
                       </list>
                     </value>
                   </entry>
@@ -192,6 +215,9 @@
     <MESSAGE value="Regisztráció grafikus felületének kialakítása" />
     <MESSAGE value="ConverterPage metódus." />
     <MESSAGE value="Login metódus." />
-    <option name="LAST_COMMIT_MESSAGE" value="Login metódus." />
+    <MESSAGE value="Konverter felület első ablak." />
+    <MESSAGE value="Konverter felület második fül." />
+    <MESSAGE value="Konverter felület harmadik fül." />
+    <option name="LAST_COMMIT_MESSAGE" value="Konverter felület harmadik fül." />
   </component>
 </project>
