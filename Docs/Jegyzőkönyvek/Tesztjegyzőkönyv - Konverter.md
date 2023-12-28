@@ -23,10 +23,23 @@ A fenti fülekkel lehet váltani a különböző mértékegységek között.
 
 ## A konvertáló felület működése
 A MeasureConverter alkalmazás használata nagyon egyszerű. A felhasználónak mindössze ki kell választani a fenti füleken navigálva, hogy melyik mértékegység páros között szeretne átváltani. Majd a két beviteli mező valamelyikébe be kell írnia az átváltani kívánt értéket, és a másik mezőben megjelenik az átszámított érték.  
-- Beírok egy értéket a konvertáló felület egyik mezőjébe.
-*Elvárt eredmény:* A program azonnal érzékeli, ha az egyik mező eddigi tartalma megváltozott, és minden további teendő (gombnyomás vagy az Enter billentyű leütése nélkül) már azonnal ki is számolja az átváltott értéket.  
+- Beírok egy értéket a konvertáló felület egyik mezőjébe.  
+*Elvárt eredmény:* a program azonnal érzékeli, ha az egyik mező eddigi tartalma megváltozott, és minden további teendő (gombnyomás vagy az Enter billentyű leütése nélkül) már azonnal ki is számolja az átváltott értéket.  
 
 ![image](https://github.com/SziliCs/MeasureConverter/assets/150517090/ad9f2ec8-c7cf-4c66-8eeb-e47c983d8f9e)
 
+- Beírok egy értéket a konvertáló felület másik mezőjébe.  
+*Elvárt eredmény:* a program azonnal érzékeli, ha a mező eddigi tartalma megváltozott, és azonnal ki is számolja az átváltott értéket.
 
+![image](https://github.com/SziliCs/MeasureConverter/assets/150517090/34506bbf-05c5-428a-8d4d-364bf6a820af)
+
+- A többi konvertáló fülön is kipróbálom a konvertálást, előbb az egyik, majd a másik mezőbe írok be egy értéket.  
+*Elvárt eredmény:* a program azonnal érzékeli, ha a mező eddigi tartalma megváltozott, és azonnal ki is számolja az átváltott értéket.  
+
+- Ezúttal törtszámot írok a mezőbe, mert természetesen nem csak egész értékeket szükséges konvertálni.  
+*Elvárt eredmény:* a program azonnal érzékeli, ha a mező eddigi tartalma megváltozott, és azonnal ki is számolja az átváltott értéket.  
+
+![image](https://github.com/SziliCs/MeasureConverter/assets/150517090/0395fff5-5405-4c6e-b3d8-37646bc13be6)
+
+- 
 
